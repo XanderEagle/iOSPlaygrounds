@@ -6,7 +6,7 @@
 */
 // Values you should edit
 let ticketsSold = 1000
-let ticketPrice = 1
+let ticketPrice = 8
 let printingCosts = 20
 let advertising = 50
 /*:

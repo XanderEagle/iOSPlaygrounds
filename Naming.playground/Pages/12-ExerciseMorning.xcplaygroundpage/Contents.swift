@@ -7,16 +7,15 @@
  */
 let brushTeeth = 3
 // Add more here...
-
+let putInContacts = 2
 //: - callout(Exercise): Find the total time of all the activities by adding up the constants. Try to adjust the values or add more activities until the total time looks reasonably close to the actual amount of time you spend getting ready on an average day.
+let washFace = 2
+let findClothes = 2
+let putOnClothes = 3
+let eatBreakfast = 4
 
+let morningRoutine = brushTeeth + putInContacts + washFace + findClothes + putOnClothes + eatBreakfast
 
-
-//: - callout(Exercise): Add up the constants again, but this time in separate groups: one group for things you have to do and another group for things you like to do.\
-//:\
-//:If there are things you don’t have to do and don't like to do, make a third group and go ahead and sum that one, too. \
-//:\
-//:Make a new constant for each group.
 
 
 

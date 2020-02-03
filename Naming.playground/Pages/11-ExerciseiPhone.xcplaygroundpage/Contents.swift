@@ -15,9 +15,9 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
 */
-
-
-
-
+let megabyte = 1000
+let gigabyte = 1
+let storage = (8 - 3) * megabyte
+let minutes = storage / 150
 
 //:[Previous](@previous)  |  page 12 of 14  |  [Next: Exercise: Fixing Your Morning](@next)
