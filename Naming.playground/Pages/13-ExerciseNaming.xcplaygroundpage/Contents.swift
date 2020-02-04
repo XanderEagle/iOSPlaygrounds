@@ -21,14 +21,18 @@ let ttl = to + tw
 let es = ttl / 2
 let lhso = es / ow
 let rhso = co - lhso
-
-
 //: - experiment: Rewrite the code so that it makes sense without needing a note. Use meaningful names and comments.
-
-
-
-
-
+let countOfOranges = 14
+let countOfWatermelons = 3
+let orangeWeight = 100
+let watermelonWeight = 200
+let totalOranges = countOfOranges * orangeWeight
+let totalWatermelons = countOfWatermelons * watermelonWeight
+let totalWeight = countOfWatermelons * countOfOranges
+let totalLoad = totalOranges + totalWatermelons
+let estimate = totalLoad / 2
+let leftHandSideOranges = estimate / orangeWeight
+let rightHandSideOranges = countOfOranges - leftHandSideOranges
 
 /*:
  

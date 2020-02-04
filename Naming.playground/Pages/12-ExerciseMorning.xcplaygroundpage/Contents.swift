@@ -15,18 +15,14 @@ let putOnClothes = 3
 let eatBreakfast = 4
 
 let morningRoutine = brushTeeth + putInContacts + washFace + findClothes + putOnClothes + eatBreakfast
-
-
-
-
 /*:
  See what happens to your total time spent getting ready if you tweak the durations of the different activities. How short of a shower would you have to take in order to have more time to message your friends? Or go for a longer run? How much more time would you need if you decided to spend as long as you wanted doing all the activities you like best?
  
  Change the numbers until you’ve got a design for your ideal morning. What would have to change in order for you to be able to actually spend your morning time this way?
 */
+let shower = 5
+let run = 15
 
-
-
-
+let morningRoutine2 = brushTeeth + putInContacts + washFace + findClothes + putOnClothes + eatBreakfast + shower + run
 
 //:[Previous](@previous)  |  page 13 of 14  |  [Next: Exercise: Good Names](@next)
