@@ -17,12 +17,8 @@
  */
 
 
-let schoolName = "YOUR SCHOOL NAME"
-let refrain = "hmm hmm HMMM hm-hmm \(schoolName) hmm hmm HMMMMM"
+let schoolName = "Quakers"
+let refrain = "Fight fight inner light kill \(schoolName) kill! Go \(schoolName)!"
 
 let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
 
-
-
-//:
-//:[Previous](@previous)  |  page 15 of 16 |  [Next: Exercise: Displaying Values](@next)

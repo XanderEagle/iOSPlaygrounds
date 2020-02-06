@@ -24,7 +24,6 @@ let positiveEmotion = "blessed"
 let negativeEmotion = "reckless"
 let sample = "Today was a big day for \(name). They had finally saved up \(number) dollars and were going to buy a \(adjective) \(noun). They went to the \(noun) \(place) feeling very \(positiveEmotion). But then they felt \(negativeEmotion). They were all out of \(noun)!"
 
-
 //:
 //:
 //: Next you’ll see a few more tricks with strings.
