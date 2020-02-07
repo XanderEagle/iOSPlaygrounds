@@ -23,8 +23,13 @@ func verseOne() {
     merrilyDream()
 }
 
-verseOne()
+func main() {
+    rowTheBoat()
+    merrilyDream()
+    verseOne()
+}
 
+main()
 /*:
  - experiment: Make an infinite loop in the code above by editing the `verseOne` function, so it calls `verseOne()` after it calls `merrilyDream()`. Look at the console and the results sidebar. Remove the line to stop the loop. It might take a while until the playground recovers – infinite loops are hard work.
  
