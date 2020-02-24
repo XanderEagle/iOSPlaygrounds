@@ -20,8 +20,23 @@
  \
  After each round, `print` some statements that your opponents might make. If you can, use the value of your current score in their statements.
  */
-
-
+var score = 501
+score = 499
+score -= 4
+score -= 5
+score -= 5
+score -= 6
+score -= 9
+score -= 14
+score -= 25
+score -= 26
+score -= 34
+score -= 37
+score -= 41
+score -= 50
+score -= 50
+score -= 100
+score -= 93
 
 /*:
  
