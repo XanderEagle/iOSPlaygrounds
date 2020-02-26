@@ -17,3 +17,7 @@
  
 [Previous](@previous)  |  page 10 of 13  |  [Next: Importing Frameworks](@next)
 */
+let basketballShoe = 10.5
+    let brand = "Nike"
+    let color = "pink"
+    let price = 100

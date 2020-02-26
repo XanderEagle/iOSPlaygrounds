@@ -22,13 +22,11 @@
  
  - callout(Exercise): Write some more incorrect addition statements. Before you write each line, try to guess what errors will be produced. Remember to comment out the lines of code from the earlier experiment first.
  */
+//int and string error
 let binaryOperator = 5 + "cheese"
 
-let binaryOperator = golf" + 7
-
-
-
-
+//binary operator +
+let binaryOperator = "golf" + 7
 
 
 
