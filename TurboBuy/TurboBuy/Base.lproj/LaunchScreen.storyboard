@@ -31,6 +31,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Log In"/>
+                                <connections>
+                                    <segue destination="5dz-aI-ZYL" kind="show" id="hOt-4a-gNe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTN-9X-fx1">
                                 <rect key="frame" x="251" y="494" width="123" height="30"/>
@@ -56,7 +59,7 @@
                                 <state key="normal" title="Create an account"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="7L8-Sc-Tgc"/>
@@ -75,6 +78,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="uw4-mj-JgD"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mJD-mh-vmG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eXA-19-rnI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
