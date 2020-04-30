@@ -15,6 +15,7 @@
 		B6D91DA224487BCB00CEA482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D91DA024487BCB00CEA482 /* LaunchScreen.storyboard */; };
 		B6D91DAD24487BCB00CEA482 /* TurboBuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D91DAC24487BCB00CEA482 /* TurboBuyTests.swift */; };
 		B6D91DB824487BCB00CEA482 /* TurboBuyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D91DB724487BCB00CEA482 /* TurboBuyUITests.swift */; };
+		B6D91DC6244F650F00CEA482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D91DC5244F650F00CEA482 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B6D91DB324487BCB00CEA482 /* TurboBuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboBuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D91DB724487BCB00CEA482 /* TurboBuyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboBuyUITests.swift; sourceTree = "<group>"; };
 		B6D91DB924487BCB00CEA482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D91DC5244F650F00CEA482 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				B6D91D9924487BC900CEA482 /* ContentView.swift */,
 				B6D91D9B24487BCB00CEA482 /* Assets.xcassets */,
 				B6D91DA024487BCB00CEA482 /* LaunchScreen.storyboard */,
+				B6D91DC5244F650F00CEA482 /* Main.storyboard */,
 				B6D91DA324487BCB00CEA482 /* Info.plist */,
 				B6D91D9D24487BCB00CEA482 /* Preview Content */,
 			);
@@ -243,6 +246,7 @@
 				B6D91DA224487BCB00CEA482 /* LaunchScreen.storyboard in Resources */,
 				B6D91D9F24487BCB00CEA482 /* Preview Assets.xcassets in Resources */,
 				B6D91D9C24487BCB00CEA482 /* Assets.xcassets in Resources */,
+				B6D91DC6244F650F00CEA482 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
