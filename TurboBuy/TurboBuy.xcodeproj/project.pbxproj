@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B609A30624645F68009EDC6F /* BrowseItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A30524645F68009EDC6F /* BrowseItemsViewController.swift */; };
+		B609A30824645FF8009EDC6F /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A30724645FF8009EDC6F /* ShoppingListTableViewController.swift */; };
 		B6D91D9624487BC900CEA482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D91D9524487BC900CEA482 /* AppDelegate.swift */; };
 		B6D91D9824487BC900CEA482 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D91D9724487BC900CEA482 /* SceneDelegate.swift */; };
 		B6D91D9A24487BC900CEA482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D91D9924487BC900CEA482 /* ContentView.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B609A30524645F68009EDC6F /* BrowseItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseItemsViewController.swift; sourceTree = "<group>"; };
+		B609A30724645FF8009EDC6F /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewController.swift; sourceTree = "<group>"; };
 		B6D91D9224487BC900CEA482 /* TurboBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D91D9524487BC900CEA482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D91D9724487BC900CEA482 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				B6D91D9B24487BCB00CEA482 /* Assets.xcassets */,
 				B6D91DA024487BCB00CEA482 /* LaunchScreen.storyboard */,
 				B6D91DC5244F650F00CEA482 /* Main.storyboard */,
+				B609A30724645FF8009EDC6F /* ShoppingListTableViewController.swift */,
+				B609A30524645F68009EDC6F /* BrowseItemsViewController.swift */,
 				B6D91DA324487BCB00CEA482 /* Info.plist */,
 				B6D91D9D24487BCB00CEA482 /* Preview Content */,
 			);
@@ -271,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B609A30824645FF8009EDC6F /* ShoppingListTableViewController.swift in Sources */,
 				B6D91D9624487BC900CEA482 /* AppDelegate.swift in Sources */,
+				B609A30624645F68009EDC6F /* BrowseItemsViewController.swift in Sources */,
 				B6D91D9824487BC900CEA482 /* SceneDelegate.swift in Sources */,
 				B6D91D9A24487BC900CEA482 /* ContentView.swift in Sources */,
 			);
