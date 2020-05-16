@@ -10,6 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TurboShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -18,27 +19,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="115"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="cb1-Zd-X7b">
-            <objects>
-                <navigationController id="7cd-0V-Cqc" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xfg-U2-9v5">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MlN-ID-02L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="828" y="82"/>
+            <point key="canvasLocation" x="764" y="84"/>
         </scene>
         <!--Shopping List Table View Controller-->
         <scene sceneID="co1-MS-sIF">
             <objects>
-                <tableViewController id="8ER-ZP-8Dh" customClass="ShoppingListTableViewController" customModule="TurboBuy" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="8ER-ZP-8Dh" customClass="ShoppingListTableViewController" customModule="TurboShop" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bp2-Dd-23b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +189,7 @@
         <!--Items-->
         <scene sceneID="wW3-B8-OU6">
             <objects>
-                <viewController title="Items" id="gbX-Dn-wd0" customClass="BrowseItemsViewController" customModule="TurboBuy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Items" id="gbX-Dn-wd0" customClass="BrowseItemsViewController" customModule="TurboShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xcy-qJ-Oka">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
