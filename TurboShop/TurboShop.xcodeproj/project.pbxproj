@@ -15,6 +15,8 @@
 		B609A322246BA6F5009EDC6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B609A320246BA6F5009EDC6F /* LaunchScreen.storyboard */; };
 		B609A32D246BA6F6009EDC6F /* TurboShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A32C246BA6F6009EDC6F /* TurboShopTests.swift */; };
 		B609A338246BA6F6009EDC6F /* TurboShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A337246BA6F6009EDC6F /* TurboShopUITests.swift */; };
+		B609A34624829AE7009EDC6F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A34524829AE7009EDC6F /* Food.swift */; };
+		B609A34A2482A29E009EDC6F /* FoodSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609A3492482A29E009EDC6F /* FoodSearchTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B609A333246BA6F6009EDC6F /* TurboShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B609A337246BA6F6009EDC6F /* TurboShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboShopUITests.swift; sourceTree = "<group>"; };
 		B609A339246BA6F6009EDC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B609A34524829AE7009EDC6F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		B609A3492482A29E009EDC6F /* FoodSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B609A317246BA6EC009EDC6F /* SceneDelegate.swift */,
 				B609A319246BA6EC009EDC6F /* ViewController.swift */,
 				B609A31B246BA6EC009EDC6F /* Main.storyboard */,
+				B609A3492482A29E009EDC6F /* FoodSearchTableViewController.swift */,
+				B609A34524829AE7009EDC6F /* Food.swift */,
 				B609A31E246BA6F5009EDC6F /* Assets.xcassets */,
 				B609A320246BA6F5009EDC6F /* LaunchScreen.storyboard */,
 				B609A323246BA6F5009EDC6F /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B609A31A246BA6EC009EDC6F /* ViewController.swift in Sources */,
+				B609A34624829AE7009EDC6F /* Food.swift in Sources */,
+				B609A34A2482A29E009EDC6F /* FoodSearchTableViewController.swift in Sources */,
 				B609A316246BA6EB009EDC6F /* AppDelegate.swift in Sources */,
 				B609A318246BA6EC009EDC6F /* SceneDelegate.swift in Sources */,
 			);
